@@ -4,4 +4,16 @@
 //      -3 -> нет
 //      7 -> нет
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Программа определения чётности числа");
+
+Console.WriteLine("Введите проверяемое число: ");
+int number = int.Parse(Console.ReadLine()!);
+
+if (number % 2 ==0)
+    {
+        Console.WriteLine("ДА");
+    }
+else
+    {
+        Console.WriteLine("НЕТ");
+    }
